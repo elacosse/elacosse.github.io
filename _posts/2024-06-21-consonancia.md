@@ -4,7 +4,7 @@ title: ConsonâncIA
 description: AI Alignment, Cognitive Maps, and the future of Digital Therapeutics
 tags: therapeutics, AI, art, science
 giscus_comments: true
-date: 2024-21-06
+date: 2024-06-21
 featured: true
 
 authors:
