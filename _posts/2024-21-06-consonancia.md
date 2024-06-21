@@ -1,10 +1,10 @@
 ---
 layout: distill
-title: a distill-style blog post
-description: an example of a distill-style blog post and main elements
-tags: distill formatting
+title: ConsonâncIA
+description: AI Alignment, Cognitive Maps, and the future of Digital Therapeutics
+tags: therapeutics, AI, art, science
 giscus_comments: true
-date: 2021-05-22
+date: 2024-21-06
 featured: true
 
 authors:
@@ -29,7 +29,7 @@ toc:
   - name: ConsonâncIA - its conceptualization
   - name: Human-Machine
   - name: Human-Human
-  - name: Human-self
+  - name: Human-Self
   - name: Conclusion
   - name: Footnotes
   - name: Citations
@@ -53,7 +53,6 @@ _styles: >
   }
 ---
 
-
 ## Introduction
 
 What does the future of treating human health look like in a world where humans are not the only ones talking and deciding? How would we ensure that this future is one we want to live and be medically treated in?
@@ -73,14 +72,27 @@ AI alignment, broadly speaking, refers to the challenge of ensuring how increasi
 
 The following figure provides the conceptual basis through which ConsonâncIA with its three distinct elements should be seen -- machine, human, self -- and constitute what we refer to as the alignment triad. Each part of the immersive audiovisual work provided a distinct experience that corresponded to one of these three elements of this triad where the underlying interaction focus of the experience was between either machine, human, or self.
 
-
 <div class="mt-3">
     {% include figure.liquid loading="eager" path="assets/img/consonancia/triad.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 
 ## Machine-human
 
- The initial task was to gather information from human participants at the installation with the intention of building a cognitive map of their unique experience with hurt. This should be done in a way respects their autonomy or willingness to share information. Further, how do we perform rich and accurate human cognitive mapping without relying on expensive and taxing neuroimaging or controlled behavioral experimentation? We utilize conversational language agents to collect information from humans at scale. Conversational Language Agents (CLA), also known as chatbots or dialogue systems, are AI systems designed to engage in human-like conversations. The main goal of CLAs are to provide subjects with an experience modeled from a natural interaction, akin to how one would communicate with another person. It is an exciting research direction to understand how CLAs should carry out conversations with specific, underlying goals of collecting self-reported data from humans in the domains we wish to map. Conventional approaches, like surveys or forms, rely on highly constrained preconceptions of what information should be asked and remain limited for that reason. In understanding pain, for instance, most clinical studies have highly constrained notions of what qualities pain manifest. This is a major reason why pain is so difficult to examine and treat. The lack of clear, objective measures, its multifactorial nature holding both complex cognitive and physical components, and the subjective nature of describing pain all make it extremely difficult for clinicians to deal with patient symptoms appropriately.
+The initial task was to gather information from human participants at the installation with the intention of building a cognitive map of their unique experience with hurt.<d-footnote>### Inspiration from Neuroscience: Cognitive Maps 
+
+Imagine you are exploring a new building without a physical map or GPS. How do you keep track of where you have been and where to go so you can find your way around? Neuroscientists and psychologists have yielded insight strongly suggestive that humans and animals create cognitive maps -- representations of their environments in their "mind's eye" that organize previous experiences to support flexible spatial navigation. This idea was first proposed in the 1940s by the psychologist Edward Tolman. He theorized that animals do not just form linked memories, i.e. as the behaviorist perspective popular at the time advocated for, but actually construct useful maps of the environment, even without necessarily being rewarded for it. The later Nobel prize winning discoveries of spatially modulated cells in the hippocampus and entorhinal cortex regions demonstrated that those brain regions are encoding what we now understand to be spatial cognitive maps. 
+
+But, cognitive maps are not only sensitive to spatial navigation contexts. Later research has extended into a variety of non-spatial domains into arbitrary levels of abstraction. The same hippocampal-entorinal circuit in earlier work has a demonstrated importance in encoding features like sound, time, and abstract features involved in concept formation or social information, encoding information and memory relationally in way that can be used to solve tasks an animal encounters. The encoding of these relations within the brain enable an ability to perform inference in tasks, everything from chess playing to decision making that make up the basic intuitions behind an animal's survival instincts.
+
+Because of the generality offered by cognitive maps, conceptually it offers us a powerful grounding to understand what we should aim to study and explore as neuroscientists looking to understand and enrich human experience. Moreover, it offers us a way to relate how neurobiology and machines share commonalities that are useful to understand, both from an interventionist and engineering perspective. In much the same way modern machine learning builds models from data to yield patterns from which we make predictions that generalize, cognitive maps are the central concept from which a common latent space can form between machine and human. Much research within AI alignment falls within this domain and is known as representational alignment. That is, measuring and building the internal representations that form some of the same structures between humans and AI systems upon which inference is performed. It is believed that through understanding and eliciting commonalities between these two representations, i.e., the biological and in-silico, we can make AI systems better and more human-like. These neurobiologically inspired features may enable more flexible, efficient intelligences, or perhaps more importantly, offer underlying mechanisms that enable machines to better understand humans.
+
+Much research remains; although there is considerable agreement among scientists that our minds hold these internal cognitive maps, it is much less clear how they form and which structure they take to represent the world outside our minds for accomplishing the everyday tasks animals perform.
+
+
+Long-term adherence is needed in order for digital therapeutic applications to create lasting behavioral changes necessary to produce a measurable health benefit. Conversational AI has enormous potential to promote easier adoption into people's daily lives and hence a long-term adherence. 
+
+
+Using distance and similarity metrics to map latent spaces enables AI to build effective internal representations of complex data. Incorporating attention and transfer learning improves these cognitive maps, allowing focus on critical elements and rapid adaptation to new scenarios. These techniques make the AI representations flexible, context-aware, and powerful for multimodal tasks.</d-footnote> This should be done in a way respects their autonomy or willingness to share information. Further, how do we perform rich and accurate human cognitive mapping without relying on expensive and taxing neuroimaging or controlled behavioral experimentation? We utilize conversational language agents to collect information from humans at scale. Conversational Language Agents (CLA), also known as chatbots or dialogue systems, are AI systems designed to engage in human-like conversations. The main goal of CLAs are to provide subjects with an experience modeled from a natural interaction, akin to how one would communicate with another person. It is an exciting research direction to understand how CLAs should carry out conversations with specific, underlying goals of collecting self-reported data from humans in the domains we wish to map. Conventional approaches, like surveys or forms, rely on highly constrained preconceptions of what information should be asked and remain limited for that reason. In understanding pain, for instance, most clinical studies have highly constrained notions of what qualities pain manifest. This is a major reason why pain is so difficult to examine and treat. The lack of clear, objective measures, its multifactorial nature holding both complex cognitive and physical components, and the subjective nature of describing pain all make it extremely difficult for clinicians to deal with patient symptoms appropriately.
 
 This is where inspiration from different research methodologies common within the humanities may enable new kinds of science to be conducted and why CLAs may offer new means of achieving new results in domains where research has stifled. Qualitative research methodology focuses on understanding human experience from the perspective of those who live them. The field of phenomenology, originally rooted in early 20th century work following the philosophy of Edmund Husserl, is a well-established approach that at its core focuses on exploring and describing people's lived experienced as reported from their own perspective and words. It primarily follows from conducting in-depth interviewers and observations to gather common themes and structures within an individual's lived experience. These data largely follow from self-report gathered by human interviewing. Characteristic in these investigations is the focus of collecting data in naturalistic settings where participants engage in contexts of their normal, everyday activities. Researchers are able to observe behaviors and interactions in their real-life contexts and environments as opposed to the highly constrained laboratory ones.  Although conventional laboratory investigations yield greater control, they also require researchers to ignore dimensions to an individual's own experience that fall outside of preconceived notions of the experimenter. Phenomenological investigations hope to gather additional information that help structure and improve upon any preconceived notions that an experimenter may have or are simply limited to because of the particular environments and structure demanded from these investigations in typical laboratory settings.
 
@@ -93,3 +105,23 @@ Advancements in generative AI have not only greatly enhanced text generation cap
 <div class="mt-3">
     {% include figure.liquid loading="eager" path="assets/img/consonancia/CLA.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
+
+## Human-Human
+
+“No man is an island, entire of itself; every man is a piece of the continent, a part of the main.” - John Donne
+
+Current AI systems do not experience anything remotely like the feelings and inner states a human does. They provide, at best, an illusion of care, empathy and understanding. While it remains an interesting research question whether promoting such a naive disillusionment ultimately could provide any good, we adopt an immediately cautious and more responsible view that the feelings of empathy and understanding are best found and promoted from real humans.
+
+Our relationship to technology should actively promote this idea. We have seen over the last decade significant challenges when this is ignored. Many of these challenges have profound implications for social cohesion, economic equality, shared cultural understanding, political stability, and individual well-being. For instance, social media platforms, driven by algorithms that prioritize engagement through optimizing advertising conversion rates, unintentionally encourage dysfunctional individual behavior and reinforce viewpoints that can lead to increased polarization, i.e., filter bubbles. Social media platforms and other services employing recommender systems are often said to be misaligned with their users and collective good. This should strike us as unsurprising; these systems are built without any notion of what constitutes well-being and moreover lack any notion of care or empathy and what even a collective good actually constitutes. They are reinforcement learning algorithms that rely on engagement measures for their optimization. We need to move away from this model of engagement.
+
+This installation experience emphasizes enabling humans to authentically connect with each other and achieve mutual understanding through shared experiences mediated by machine intelligence. The idea is that by leveraging AI to capture and map individual expressions of hurt, suffering, and emotions, it can help bridge those experiences across people into ensembles where they feel most understood and supported. This allows humans to gain deeper empathy and consonance with one another's experiences, perspectives and values. Ultimately, the goal of "human-human alignment" in this context is to use AI as a facilitator to bring about better alignment between different humans. By allowing people to genuinely understand each other's feelings of vulnerabilities, it aims to foster interpersonal harmony, reduce conflicts stemming from misunderstandings, and cultivate a sense of unity among the human participants. AI system builders must acknowledge that interpersonal interactions profoundly shape our growth, emotional stability, and unique personality traits, serving as the cornerstone of human development and individuality. How we think and behave are shaped mainly by who we interact with.
+
+The main idea was to systematically map the physical space of ongoing conversations with CLAs into a relational social space with the goal of facilitating empathy between individuals. Mapping high-dimensional data like text is complex and handling it appropriately requires dimensionality reduction to understand relationships between entities. This is where techniques from modern machine learning can find similarity, i.e., compute distances, between each data observation (see methods). Each conversation is represented as a multi-dimensional space. Each vector points in a direction in this high-dimensional space based on its content. Using a robust similarity metric like cosine, distances between conversation can be computed and we can construct a social graph based on this information. 
+
+FIGURE
+
+VIDEO OF REPRESENTATION
+
+
+## Footnotes
+
