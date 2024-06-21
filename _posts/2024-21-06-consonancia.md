@@ -75,7 +75,7 @@ The following figure provides the conceptual basis through which ConsonâncIA wi
     {% include figure.liquid loading="eager" path="assets/img/consonancia/triad.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 
-## Machine-human
+## Machine-Human
 
 The initial task was to gather information from human participants at the installation with the intention of building a cognitive map of their unique experience with hurt.<d-footnote>Imagine you are exploring a new building without a physical map or GPS. How do you keep track of where you have been and where to go so you can find your way around? Neuroscientists and psychologists have yielded insight strongly suggestive that humans and animals create cognitive maps -- representations of their environments in their "mind's eye" that organize previous experiences to support flexible spatial navigation. This idea was first proposed in the 1940s by the psychologist Edward Tolman. He theorized that animals do not just form linked memories, i.e. as the behaviorist perspective popular at the time advocated for, but actually construct useful maps of the environment, even without necessarily being rewarded for it. The later Nobel prize winning discoveries of spatially modulated cells in the hippocampus and entorhinal cortex regions demonstrated that those brain regions are encoding what we now understand to be spatial cognitive maps. But, cognitive maps are not only sensitive to spatial navigation contexts. Later research has extended into a variety of non-spatial domains into arbitrary levels of abstraction. The same hippocampal-entorinal circuit in earlier work has a demonstrated importance in encoding features like sound, time, and abstract features involved in concept formation or social information, encoding information and memory relationally in way that can be used to solve tasks an animal encounters. The encoding of these relations within the brain enable an ability to perform inference in tasks, everything from chess playing to decision making that make up the basic intuitions behind an animal's survival instincts. Because of the generality offered by cognitive maps, conceptually it offers us a powerful grounding to understand what we should aim to study and explore as neuroscientists looking to understand and enrich human experience. Moreover, it offers us a way to relate how neurobiology and machines share commonalities that are useful to understand, both from an interventionist and engineering perspective. In much the same way modern machine learning builds models from data to yield patterns from which we make predictions that generalize, cognitive maps are the central concept from which a common latent space can form between machine and human. Much research within AI alignment falls within this domain and is known as representational alignment. That is, measuring and building the internal representations that form some of the same structures between humans and AI systems upon which inference is performed. It is believed that through understanding and eliciting commonalities between these two representations, i.e., the biological and in-silico, we can make AI systems better and more human-like. These neurobiologically inspired features may enable more flexible, efficient intelligences, or perhaps more importantly, offer underlying mechanisms that enable machines to better understand humans. Much research remains; although there is considerable agreement among scientists that our minds hold these internal cognitive maps, it is much less clear how they form and which structure they take to represent the world outside our minds for accomplishing the everyday tasks animals perform. Long-term adherence is needed in order for digital therapeutic applications to create lasting behavioral changes necessary to produce a measurable health benefit. Conversational AI has enormous potential to promote easier adoption into people's daily lives and hence a long-term adherence. Using distance and similarity metrics to map latent spaces enables AI to build effective internal representations of complex data. Incorporating attention and transfer learning improves these cognitive maps, allowing focus on critical elements and rapid adaptation to new scenarios. These techniques make the AI representations flexible, context-aware, and powerful for multimodal tasks.</d-footnote> This should be done in a way respects their autonomy or willingness to share information. Further, how do we perform rich and accurate human cognitive mapping without relying on expensive and taxing neuroimaging or controlled behavioral experimentation? We utilize conversational language agents to collect information from humans at scale. Conversational Language Agents (CLA), also known as chatbots or dialogue systems, are AI systems designed to engage in human-like conversations. The main goal of CLAs are to provide subjects with an experience modeled from a natural interaction, akin to how one would communicate with another person. It is an exciting research direction to understand how CLAs should carry out conversations with specific, underlying goals of collecting self-reported data from humans in the domains we wish to map. Conventional approaches, like surveys or forms, rely on highly constrained preconceptions of what information should be asked and remain limited for that reason. In understanding pain, for instance, most clinical studies have highly constrained notions of what qualities pain manifest. This is a major reason why pain is so difficult to examine and treat. The lack of clear, objective measures, its multifactorial nature holding both complex cognitive and physical components, and the subjective nature of describing pain all make it extremely difficult for clinicians to deal with patient symptoms appropriately.
 
@@ -88,12 +88,20 @@ CLAs are not only limited to interaction with text, however. For ConsonâncIA, w
 Advancements in generative AI have not only greatly enhanced text generation capabilities, but have also paved the way for the development of generative image models, such as DALL-E or and Stable Diffusion. In this exploration, we created a novel form of conversational narrative. It harnessed the power of these generative models through enriching the conversation by integrating them seamlessly with generative images. The motivation for this was multifold and mainly sought to aid in capturing rich, descriptive experiences from individuals. Images possess the power to evoke strong emotional responses, adding a layer of complexity words alone cannot capture. Memories often surface when we encounter an image, as it can trigger a familiar scene, object, place, or experience, inviting us to navigate between spaces of recollection and imagination. These phenomena enhance the CLA cognitive mapping objectives. Furthermore, the inclusion of generative images engages the subject in a more profound interpretation and interaction with the conversation. By incorporating images into a conversational narrative, a certain depth and meaning can transcend words, blurring the boundaries between the past, present, and imagined states. These aspects together produced a narrative that enhanced the normal (and rather dull) conversational narratives individuals have on their mobile phones.
 
 <div class="mt-3">
-    {% include figure.liquid loading="eager" path="assets/img/consonancia/CLA.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid loading="eager" path="assets/img/consonancia/cla.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 
 ## Human-Human
 
-“No man is an island, entire of itself; every man is a piece of the continent, a part of the main.” - John Donne
+> “No man is an island, entire of itself; every man is a piece of the continent, a part of the main.”
+>
+> - John Donne (1572–1631), Meditation #17 from Devotions upon Emergent Occasions
+
+<div class="row mt-3">
+    <div class="col-sm mt-3">
+        {% include video.liquid path="assets/video/con.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+</div>
 
 Current AI systems do not experience anything remotely like the feelings and inner states a human does. They provide, at best, an illusion of care, empathy and understanding. While it remains an interesting research question whether promoting such a naive disillusionment ultimately could provide any good, we adopt an immediately cautious and more responsible view that the feelings of empathy and understanding are best found and promoted from real humans.
 
@@ -103,8 +111,24 @@ This installation experience emphasizes enabling humans to authentically connect
 
 The main idea was to systematically map the physical space of ongoing conversations with CLAs into a relational social space with the goal of facilitating empathy between individuals. Mapping high-dimensional data like text is complex and handling it appropriately requires dimensionality reduction to understand relationships between entities. This is where techniques from modern machine learning can find similarity, i.e., compute distances, between each data observation (see methods). Each conversation is represented as a multi-dimensional space. Each vector points in a direction in this high-dimensional space based on its content. Using a robust similarity metric like cosine, distances between conversation can be computed and we can construct a social graph based on this information.
 
-FIGURE
+<div class="mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/consonancia/cosine.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+</div>
+<div class="caption">
+    A: B: C: D:
+</div>
 
-VIDEO OF REPRESENTATION
+## Human-Self
+
+> “So you think, do you, it is only houses that are built? I am continually building myself and building you, and you are doing the same, inversely.”
+>
+> ― Luigi Pirandello (1867 – 1936), One, No One, and One Hundred Thousand 
+
+<div class="mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/consonancia/spatial_traj.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+</div>
+<div class="caption">
+    A: B: C: D:
+</div>
 
 ## Footnotes
