@@ -162,7 +162,7 @@ Although ambiguous, its objectives losely intended to elicit an uncovering of un
     </div>
 </div>
 <div class="caption">
-A sample personalized audio-visual
+A sample personalized audio-visual experience with real-time stable-diffusion rendering components.
 </div>
 
 ## Conclusion
