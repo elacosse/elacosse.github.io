@@ -5,7 +5,7 @@ description: An interactive drawing experience mediated by AI.
 img: assets/img/palimpsest/1.png
 importance: 2
 category: art-science
-related_publications: true
+related_publications: false
 ---
 
 <div class="row mt-3">
