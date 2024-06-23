@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: ConsonâncIA
+description: Machine alignment for human-human alignment for human-self alignment
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: Art
 related_publications: true
 ---
 
