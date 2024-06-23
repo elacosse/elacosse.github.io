@@ -28,9 +28,9 @@ toc:
     #   - name: Example Child Subsection 2
   - name: ConsonâncIA - its conceptualization
   - subsections:
-    - name: Human-Machine
-    - name: Human-Human
-    - name: Human-Agent
+      - name: Human-Machine
+      - name: Human-Human
+      - name: Human-Agent
   - name: Conclusion
   - name: Credits
   - name: Citations
@@ -66,7 +66,7 @@ This year's Metamersion theme was "Healing Algorithms" and featured more install
 
 Consonância (Portuguese), or consonance (English), refers to a state of agreement or harmony between different elements in a system. ConsonâncIA, the complete installation from the software systems to set design, was constructed to provide an immersive experience at the intersection of machine and human expression and intelligence. All together, it encouraged visitors to imagine what form a healing experience of the future would take. That is, if machines could capture and mediate individual expressions of hurt or suffering, and ultimately work with them or a group to help alleviate and heal from it. The essence of the word consonância tries to capture how machine intelligence aligning with an individual's desire for their own well-being or self-care would facilitate a healing experience that could bring about better consonance between others and ultimately themselves in the careful, intentional ways we need to think about in designing and deploying digital therapeutics.
 
-Overall, the motivation for ConsonâncIA relates to themes of modern AI alignment research, emphasizing the need for AI systems that are in consonance with human values, their diverse ways of thinking, and perhaps most importantly, through fostering connections with others mediated through real empathy and mutual understandings, a feature current AI systems will completely lack for the foreseeable future. Achieving these objectives could ultimately contribute to our individual and collective well-being, the underlying goal of serving digital therapeutics. Rather than seeing alignment objectives as a static relation between AI and human systems, we see AI, especially in the context transformative technologies that serve administering digital therapuetics, serving as an _interventionalist_ role. That intervention would serve to create 
+Overall, the motivation for ConsonâncIA relates to themes of modern AI alignment research, emphasizing the need for AI systems that are in consonance with human values, their diverse ways of thinking, and perhaps most importantly, through fostering connections with others mediated through real empathy and mutual understandings, a feature current AI systems will completely lack for the foreseeable future. Achieving these objectives could ultimately contribute to our individual and collective well-being, the underlying goal of serving digital therapeutics. Rather than seeing alignment objectives as a static relation between AI and human systems, we see AI, especially in the context transformative technologies that serve administering digital therapuetics, serving as an _interventionalist_ role. That intervention would serve to create
 
 AI alignment, broadly speaking, refers to the challenge of ensuring how increasingly capable AI systems can be steered to become trusted, aligning and respecting human values and goals. We, as architects of AI systems, need to solve the problem of how to create robust mechanisms for these systems to act beneficially, in accordance with our societal ethics and preferences at large, i.e., a collective good. ConsonâncIA takes a broader view of the objectives present in alignment research that typically focuses on an isolated set of goals of individual humans and machines; instead, we suggest that consideration of tractable goals defining alignment objectives between other humans, i.e., human-human, and ultimately the alignment defining one's values/goals internally, i.e., human-self, are important. Alignment objectives, emphasizing the context of deploying digital therapeutics, would be better served if we adopt this more holistic view accommodating human-human and human-self aspects into the alignment problem at large. These two objectives are often understood occupying a realm outside those of machines reaching in or mediating. ConsonâncIA demonstrates how these objectives can be considered together within the general AI alignment problem in the context of serving digital therapuetics.
 
@@ -136,7 +136,7 @@ Figure 3: An interactive amalgam of identities making up visitors at Metamersion
 
 > “So you think, do you, it is only houses that are built? I am continually building myself and building you, and you are doing the same, inversely.”
 >
-> ― Luigi Pirandello (1867 – 1936), One, No One, and One Hundred Thousand 
+> ― Luigi Pirandello (1867 – 1936), One, No One, and One Hundred Thousand
 
 In psychotherapy, therapists guide clients to explore their own cognitive maps, confront internal conflicts or dissonances, and work towards integrating different aspects of themselves into a more coherent and aligned sense of identity and meaning. This process often starts with an individual recognizing some internal conflict that is understood to be defined by two states in tension with one another: (1) the current dysfunctional one the individual is currently situated in, and (2) a (potentionally) idealized functional one free from dysfunctional thoughts or behavioral patterns. Therapy then tries to reconcile these two states by guiding the client through a process of acceptance, self-exploration, reflection, and gradual change to the desired better state. In essence, this constitutes an internal self-alignment. However, considering the presence of two or more internally conflicting states, Aligning AI with humans is significantly more complex than often assumed, due to the inherent lack of internal alignment within human individuals and collectives. Humans are complex with multiple internal goals, motivations, behavioral patterns, and preferences. Humans are often not internally coherent or manifest a single value system. To believe they are is a problematic oversimplication to alignment research.
 
@@ -167,9 +167,10 @@ A sample personalized audio-visual experience with real-time stable-diffusion re
 
 ## Conclusion
 
-ConsonâncIA expands on traditional AI alignment objectives by incorporating human-human and human-self alignment goals into the mix. This holistic and  interventionalist oriented approach is particularly relevant in the context of developing digital therapeutics, where the goal is to improve overall well-being of individual and groups. The three elements of agent, human, and self alignment in ConsonâncIA form the three distinct experiences that were described.
+ConsonâncIA expands on traditional AI alignment objectives by incorporating human-human and human-self alignment goals into the mix. This holistic and interventionalist oriented approach is particularly relevant in the context of developing digital therapeutics, where the goal is to improve overall well-being of individual and groups. The three elements of agent, human, and self alignment in ConsonâncIA form the three distinct experiences that were described.
 
 Consonancia was, to our knowledge, the first demonstration of how an private individual participation could collectively mediate the construction of a shared representation between individuals inhabiting the same physical space and provide a space from which we can imagine how a healing experience might be mediated by intelligent machines. These experiences might form the basis of developing next-generation digital therapuetics that go beyond current approaches that are usually isolated to serving apps on mobile phones. Much future work will be needed to determine how these kinds of experiences can be shaped towards this end.
 
 ## Credits
-ConsonâncIA would not have been possible without the significant contributions of  a team. Filipe Mendes - lead design, Lydia Neto - room design and construction, Cláudia Ribeiro - Unity design. Nico Espinoza - MSP/Max spatial audio sound design, Rui Rodrigues - audio-visual experience sound design.
+
+ConsonâncIA would not have been possible without the significant contributions of a team. Filipe Mendes - lead design, Lydia Neto - room design and construction, Cláudia Ribeiro - Unity design. Nico Espinoza - MSP/Max spatial audio sound design, Rui Rodrigues - audio-visual experience sound design.
