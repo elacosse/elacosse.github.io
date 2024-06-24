@@ -75,7 +75,7 @@ The following figure provides the conceptual basis through which ConsonâncIA wi
 <div class="mt-3">
     {% include figure.liquid loading="eager" path="assets/img/consonancia/triad.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
-<div class="caption">
+<div class="caption" style="text-align: left;">>
 Figure 1: the "Agent-Human-Self Alignment Triad" diagram illustrates the conceptual framework for ConsonâncIA. Synthetic Agent, Humans, and Self, as three interconnected stages of experience. (1) Conversational Experience (Agent level): The initial conversational interaction between the AI and human. (2) Interactive Social Graph (Human level): A representation of social relationships uncovered from the agent and mapped visually. (3) Personalized Experience (Self level): The culmination of a tailored, potentially perspective-shifting (simulated) healing experience for the individual. The diagram poses questions about an AI's ability to map information from conversations, construct meaningful social graphs, and create personalized experiences that offer beneficial insights for users. This framework extends beyond the alignment problem that considers the isolated relation of human system to AI ones, emphasizing the potential for AI to facilitate richer, more meaningful human experiences that reach into group interactions and how notions of self are understood.
 </div>
 
@@ -130,7 +130,7 @@ A: User conversations collected by the CLA were fed into an embedding model, a t
         {% include video.liquid path="assets/video/consonancia/group.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
-<div class="caption">
+<div class="caption" style="text-align: left;">>
 Figure 3: An interactive amalgam of identities making up visitors at Metamersion. As participants shared more about themselves with the CLA, a visual representation making up what it understands of them dynamically adapts. These changes express ways the machine believes represents the participant’s experiences of hurt and how it relates to others around them. This changing video was projected on the outside of the room and featured the ability to interact with a particle system that was rendered on top the visuals via pose-tracking by a Microsoft Kinect device.
 </div>
 
@@ -145,7 +145,7 @@ In psychotherapy, therapists guide clients to explore their own cognitive maps, 
 <div class="mt-3">
     {% include figure.liquid loading="eager" path="assets/img/consonancia/self.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
-<div class="caption">
+<div class="caption" style="text-align: left;">>
 Figure 4: Overview of the personalized audio-visual experience generation process. (A) User selection from a conversation graph, leading to text extraction and content creation. (B) Representation of the spatial audio experience, illustrating sound source positioning and user movement towards a selected sample in the room. (C) The ambiguous audio-visual experience motivated from earlier user interaction.
 The process begins with selecting a user from a conversation graph (A), from which the user's conversation text is extracted. This text is then used to generate three components of the audio-visual experience: an introduction narrative giving instructions for the participant inside the room, spatial audio samples that was made up of positive or negative sentiment statements motivated from the participant's conversation, and an audio-visual narrative constructed that accompanied the visuals. The spatial audio experience (B) demonstrates how sound sources are positioned in 3D space relative to the user's position and movement. The final audio-visual experience (C) is represented by an abstract circular image, that was played as an immersive, personalized narrative environment derived from the user's conversational data.
 </div>
@@ -163,7 +163,7 @@ Although ambiguous, its objectives loosely intended to elicit an uncovering of u
         {% include video.liquid path="assets/video/consonancia/personalized.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
-<div class="caption">
+<div class="caption" style="text-align: left;">>
 A sample personalized audio-visual experience with real-time stable-diffusion rendering components.
 </div>
 
