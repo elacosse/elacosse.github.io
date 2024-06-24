@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I'm research technologist and neuroscientist particularly interested in cognitive maps, generative AI to support novel multimodal human-computer interaction, and conversational language agents. Prior to joining the Champalimaud Foundation, I worked on [BMIs](https://www.kernel.com/) and as a [PhD student](https://is.mpg.de/person/elacosse).
+I'm a research technologist and neuroscientist particularly interested in cognitive mapping and using generative AI to support novel multimodal human-computer interaction. Prior to joining the Champalimaud Foundation, I worked on [BMIs](https://www.kernel.com/) and as a [PhD student](https://is.mpg.de/person/elacosse).
 
 
 I'm always eager to collaborate and connect. I'm best reached via email.
