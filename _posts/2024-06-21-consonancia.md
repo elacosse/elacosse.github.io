@@ -123,8 +123,6 @@ This installation experience emphasizes a hypothesized means for humans to authe
 A: User conversations collected by the CLA were fed into an embedding model, a transformer-based encoder, to produce a vector that would be dynamically updated as the conversation progressed. This model generated dense vector representations from individual conversation text. B: Distance were computed to construct a social graph linking individuals between each other. Cosine similarity measure was used to determine how similar two vectors are by considering their angle $ \text{Cosine Similarity} = d_{cos}(C_i, C_j) := \frac{C_i \cdot C_j}{||C_i||_2 ||C_j||_2} $ where $C_i$ and $C_j$ denote conversations from users $i, j$. 
 </div>
 
-
-
 <div class="row mt-3">
     <div class="col-sm mt-3">
         {% include video.liquid path="assets/video/consonancia/group.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
