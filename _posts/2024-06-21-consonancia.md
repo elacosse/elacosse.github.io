@@ -112,7 +112,7 @@ Current AI systems do not experience anything remotely like the feelings and inn
 
 Our relationship to technology should actively promote this idea. Namely, that technological use should aid in finding empathy and understanding from one another. It is a rather uncontroversial statement to suggest this constitutes a collective good that technology should aim towards achieving. We have seen over the last decade significant challenges and consequences when this is not considered an objective. Many of these consequences have had profound effects on social cohesion, economic equality, shared cultural understanding, political stability, and individual well-being. For instance, social media platforms, driven by algorithms that prioritize engagement through optimizing advertising conversion rates, unintentionally encourage dysfunctional individual behavior and reinforce viewpoints that can lead to increased polarization, i.e., filter bubbles. Social media platforms and other services employing recommender systems are often said to be misaligned with their users and the collective good. This should strike us as unsurprising; these systems are built without any measure of what constitutes well-being, and moreover lack any mechanism for achieving any sort of collective good. They are reinforcement learning algorithms that rely on _individual_ engagement measures for their optimization.
 
-The main idea of this part of the installation was to systematically map the physical space of ongoing conversations with CLAs into a relational social space with the underlying goal of facilitating empathy between individuals. Mapping high-dimensional data like text is complex and handling it appropriately requires dimensionality reduction to understand relationships between entities. This is where techniques from modern machine learning can find similarity, i.e., compute distances, between each data observation. Each conversation is represented as a multi-dimensional space. Each vector points in a direction in this high-dimensional space based on its content. Using a robust similarity metric like cosine, distances between conversation can be computed and we can construct a social graph based on this information.
+The main idea of this part of the installation was to systematically map the physical space of ongoing conversations with CLAs into a relational social space with the underlying goal of facilitating empathy between individuals. Mapping high-dimensional data like text is complex and handling it appropriately requires dimensionality reduction to understand relationships between entities. This is where techniques from modern machine learning can find similarity, i.e., compute distances, between each data observation. Each conversation is represented as a multi-dimensional vector within the embedding space defined by a language model. Each vector points in a direction in this high-dimensional space based on its content. Using a robust similarity metric like cosine, distances between conversation can be computed and we can construct a social graph based on this information.
 
 This installation experience emphasizes a hypothesized means for humans to authentically connect with each other and achieve mutual understanding through shared experiences that are mediated by AI's generative capabilities. Through leveraging AI to capture and map individual expressions of hurt, it can help bridge those experiences across people into ensembles where they feel most understood and supported. This allows humans to gain deeper empathy and consonance with one another's experiences, perspectives and values. Ultimately, the goal of "human-human alignment" in this context is to use AI as a facilitator to bring about better alignment between different humans. By allowing people to genuinely understand each other's feelings of vulnerabilities, it aims to cultivate a sense of understanding among the human participants. AI system builders must acknowledge that interpersonal interactions profoundly shape our growth, emotional stability, and unique personality traits, serving as the cornerstone of human development and individuality. How we think and behave are shaped mainly by who we interact with.
 
@@ -174,3 +174,59 @@ ConsonancIA was, to our knowledge, the first demonstration of how an private ind
 ## Credits
 
 ConsonâncIA would not have been possible without a team. **Filipe Mendes** - lead audio-visual design and construction, **Lydia Neto** - room design and construction, **Cláudia Ribeiro** - Unity design. **Nico Espinoza** - MSP/Max spatial audio sound design, **Rui Rodrigues** - audio-visual experience sound design.
+
+
+
+
+######
+
+Objective analysis: AI could potentially offer an unbiased perspective on cognitive patterns and behaviors, free from human judgments or preconceptions.
+Pattern recognition: Machine learning algorithms could identify subtle patterns in thoughts or behaviors that might be difficult for humans to detect.
+Continuous monitoring: AI systems could provide ongoing tracking of progress and setbacks, offering more consistent feedback than periodic therapy sessions.
+Personalized interventions: AI could tailor strategies and exercises to an individual's specific needs and progress.
+Accessibility: AI-powered tools could make some aspects of therapeutic self-exploration more widely available.
+
+
+
+
+Can an AI invert the dynamics and identify? The shared experiences with others, individuals may gain insights into their own emotions, thought patterns, and behaviors. This self-reflection could potentially help them resolve internal contradictions, heal from past traumas or hurts, and move towards a state of greater self-acceptance and alignment with their true selves.
+
+
+Traditional AI alignment frameworks often oversimplify the human side, treating humans as a coherent system (H) to be aligned with an AI system (A).
+In reality, humans are complex, with multiple internal "parts" that have different goals, motivations, and preferences.
+These parts are aggregated through some mechanism to produce actions, but this aggregation is imperfect and can lead to internal conflicts.
+Current alignment proposals often fail to adequately address this human self-unalignment, leading to potential issues:
+a) Aligning with the "boundary" of the human system might neglect important internal preferences.
+b) Aligning with individual parts might conflict with the overall aggregation process.
+c) Attempting to represent the whole system might lead to unpredictable amplification of certain features.
+The problem of self-unalignment cannot be postponed or easily delegated to future, more powerful AI systems.
+Proposed solutions like meta-preferences, extended deliberation, or social choice theory are seen as incomplete or potentially problematic.
+The author argues that addressing self-unalignment is fundamental to solving the alignment problem and that current approaches that ignore this aspect are likely to fail.
+The document uses the example of Microsoft's chatbot Sydney to illustrate how different interpretations of alignment can lead to vastly different outcomes when dealing with self-unaligned human systems.
+
+Self alignment in ConsonâncIA refers to the alignment of individuals with their own values, goals, and authentic selves. The concept suggests that by leveraging the intersection of machine intelligence and human connection, individuals can gain a deeper understanding of themselves, their emotions, and how and why they interpret their experiences the way they do. Through this self-alignment, individuals can work towards healing, alleviating suffering, and ultimately achieving a state of well-being and harmony within themselves.
+
+Human-machine alignment generally focuses on establishing a relation from human to machine via capturing an individual's preferences. What is often neglected in most discussion of this relation is that the human may, in fact, be unaligned to themselves. What do we mean by this?
+
+The practice of psychotherapy aims to help individuals gain deeper self-awareness, understand their emotions, thoughts, behaviors, and experiences more fully. Through this process of self-exploration and self-discovery, facilitated by a therapist, individuals can work towards aligning their thoughts, feelings, and actions with their authentic values, goals, and sense of self.`
+
+
+
+
+First, we need new models of value elicitation: ways to develop
+scalable processes for surfacing and combining group beliefs, goals, values, and preferences.
+
+1. ConsonâncIA envisions AI systems that can capture and respond to individual expressions of hurt/suffering in order to facilitate a healing experience, aligning machine intelligence with the individual's desire for wellbeing.
+2. It emphasizes the need for AI alignment not just between humans and machines, but also human-human alignment (fostering connection between people) and human-self alignment (aligning one's values/goals internally).
+3. This holistic view of alignment at different levels (human-machine, human-human, human-self) could be particularly relevant for developing "digital therapeutics" - AI systems focused on contributing to individual and collective wellbeing.
+4. Key challenges include imbuing AI with true empathy, understanding diverse human values/thought processes, and creating proper safeguards for beneficial AI behavior aligned with societal ethics.
+
+Overall, it seems ConsonâncIA proposes an expanded conceptualization of AI alignment - not just optimizing the human-machine relationship, but using AI to facilitate healing alignment within and between humans themselves. Please let me know if I have captured the key elements accurately or if you would like me to expand on any part of the summary.
+
+
+
+Will our hurt and what it means for it to be absent be better understood? "Did the machine understand our collective hurt?"; "Did the machine help us understand 2each other’s hurt?" "Did the machine and others help me understand my own hurt and healing?"
+
+Recognizing that any designed treatment with a smartphone app is not a substantive DTx solution. An immersive experience is necessary. (Ideally in a shared physical space with others)
+
+More installations where individual participation can influence how influence what kind of impact they can have on them are needed.
