@@ -117,30 +117,9 @@
                 font-weight: 400;
             }
 
-            /* --- New Project Section Styles --- */
+            /* --- MODIFIED: Removed scrollbar styles --- */
             .projects-container {
-                max-height: 70vh; /* Set a max height */
-                overflow-y: auto; /* Enable vertical scrolling */
-                padding-right: 20px; /* Space for the scrollbar */
-            }
-
-            /* Custom Scrollbar Styling */
-            .projects-container::-webkit-scrollbar {
-                width: 8px;
-            }
-
-            .projects-container::-webkit-scrollbar-track {
-                background: #1a1a1a;
-                border-radius: 4px;
-            }
-
-            .projects-container::-webkit-scrollbar-thumb {
-                background: #444;
-                border-radius: 4px;
-            }
-
-            .projects-container::-webkit-scrollbar-thumb:hover {
-                background: #666;
+                /* Styles that created the scrollbar have been removed. */
             }
 
             .project-item {
@@ -150,6 +129,7 @@
                 padding-bottom: 50px;
                 border-bottom: 1px solid #282828;
             }
+            /* --- END MODIFICATION --- */
 
             .project-item:last-child {
                 border-bottom: none;
@@ -198,6 +178,29 @@
                 text-decoration-color: #ffffff;
             }
 
+            /* --- Project Category Styles --- */
+            .project-category-title {
+                font-size: 20px;
+                color: #c0c0c0;
+                margin-top: 40px;
+                margin-bottom: 30px;
+                padding-bottom: 15px;
+                border-bottom: 1px solid #333;
+                font-weight: 500;
+                letter-spacing: 0.5px;
+            }
+
+            /* Remove margin for the first category title to align with the top */
+            .projects-container > .project-category-title:first-child {
+                margin-top: 0;
+            }
+
+            .placeholder-text {
+                color: #888;
+                font-style: italic;
+                margin-bottom: 50px;
+            }
+
             /* Image Preview */
             .image-preview-container {
                 position: fixed;
@@ -238,7 +241,6 @@
                 border: none;
                 padding: 5px 10px;
             }
-            /* --- End New Project Styles --- */
 
             @media (max-width: 768px) {
                 .image-preview {
@@ -290,7 +292,7 @@
                     height: auto;
                 }
                 .projects-container {
-                    max-height: none; /* Disable fixed height on mobile */
+                    max-height: none;
                     overflow-y: visible;
                     padding-right: 0;
                 }
@@ -322,7 +324,6 @@
             <canvas id="symbiosisCanvas"></canvas>
         </header>
 
-        <!-- Image Preview Modal -->
         <div class="image-preview-container">
             <button class="close-preview">&times;</button>
             <img src="" alt="Preview" class="image-preview" />
@@ -342,7 +343,6 @@
             </header>
 
             <main class="portfolio-body">
-                <!-- Left Column -->
                 <aside class="left-column">
                     <h2>Reach me</h2>
                     <div class="contact-info">
@@ -357,66 +357,131 @@
                 </aside>
 
                 <section class="right-column">
-                    <h2>Projects</h2>
-                    <div class="projects-container">
-                        <article class="project-item">
-                            <div class="project-image">
-                                <img src="img/palimpsest/1.png" alt="Palimpsest" />
-                            </div>
-                            <div class="project-details">
-                                <h3>Palimpsest</h3>
-                                <p>
-                                    This installation presents a dialogue between participants and a synthetic
-                                    intelligence. The interaction is mediated through image exchange, aiming to
-                                    investigate the AI's capacity for understanding and responding to user needs,
-                                    desires, and well-being, as well as its potential to augment human creativity. The
-                                    system utilizes recent advancements in generative models for image synthesis and
-                                    language understanding.
-                                </p>
-                                <a href="https://youtu.be/aGPPA5kwjrI" target="_blank" rel="noopener noreferrer"
-                                    >View Example Video ▸</a
-                                >
-                            </div>
-                        </article>
+                    <h2>Recent Projects</h2>
+                    <h3 class="project-category-title">Technology</h3>
 
-                        <article class="project-item">
-                            <div class="project-image">
-                                <img src="img/consonancia/consonancia.png" alt="Project 2 Screenshot" />
-                            </div>
-                            <div class="project-details">
-                                <h3>ConsonâncIA</h3>
-                                <p>
-                                    An immersive audiovisual work exploring the future of digital therapeutics and
-                                    showcases how AI can facilitate healing experiences by mediating human-to-human and
-                                    human-to-self connections, extending traditional AI alignment concepts. The project
-                                    also delves into using conversational AI and generative models to understand and map
-                                    individual human experiences, aiming to foster empathy and promote self-reflection
-                                    for improved well-being.
-                                </p>
+                    <article class="project-item">
+                        <div class="project-image">
+                            <img src="img/CCI/aac.png" alt="Palimpsest" />
+                        </div>
+                        <div class="project-details">
+                            <h3>Cognitive Communication Interface (ongoing)</h3>
+                            <p>
+                                This project develops tools to adapt pretrained language models as communication aids
+                                for patients with conditions like ALS, aphasia, or dysarthria. Using eye-tracking and
+                                egocentric video, systems infer users' intentions to support effective interaction.
+                                Central to this work is "cognitive steering" - guiding AI personas equipped with
+                                personalized context to communicate on behalf of the user. We focus on representation
+                                engineering to shape and interpret AI behaviors, aligning neural activations with human
+                                thought processes to bridge human cognition and machine intelligence. (w/
                                 <a
-                                    href="https://elacosse.substack.com/p/consonancia"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    >Read Project Overview ▸</a
+                                    href="https://www.economist.com/science-and-technology/2024/12/11/ai-can-bring-back-a-persons-own-voice"
+                                    >Halo Team)</a
                                 >
+                            </p>
+                            <a href="" target="_blank" rel="noopener noreferrer"></a>
+                        </div>
+                    </article>
+
+                    <article class="project-item">
+                        <div class="project-image">
+                            <img src="img/palimpsest/1.png" alt="Palimpsest" />
+                        </div>
+                        <div class="project-details">
+                            <h3>Palimpsest (2024)</h3>
+                            <p>
+                                This installation presents a dialogue between participants and a synthetic intelligence.
+                                The interaction is mediated through image exchange, aiming to investigate the AI's
+                                capacity for understanding and responding to user needs, desires, and well-being, as
+                                well as its potential to augment human creativity. The system utilizes recent
+                                advancements in generative models for image synthesis and language understanding.
+                            </p>
+                            <a href="https://youtu.be/aGPPA5kwjrI" target="_blank" rel="noopener noreferrer"
+                                >View Example Video ▸</a
+                            >
+                        </div>
+                    </article>
+
+                    <article class="project-item">
+                        <div class="project-image">
+                            <img src="img/consonancia/consonancia.png" alt="Project 2 Screenshot" />
+                        </div>
+                        <div class="project-details">
+                            <h3>ConsonâncIA (2024)</h3>
+                            <p>
+                                An immersive audiovisual work exploring the future of digital therapeutics and showcases
+                                how AI can facilitate healing experiences by mediating human-to-human and human-to-self
+                                connections, extending traditional AI alignment concepts. The project also delves into
+                                using conversational AI and generative models to understand and map individual human
+                                experiences, aiming to foster empathy and promote self-reflection for improved
+                                well-being.
+                            </p>
+                            <a
+                                href="https://elacosse.substack.com/p/consonancia"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Read Project Overview ▸</a
+                            >
+                        </div>
+                    </article>
+
+                    <article class="project-item">
+                        <div class="project-image">
+                            <img src="img/ls1/1.jpg" alt="Latent Space I" />
+                        </div>
+                        <div class="project-details">
+                            <h3>Latent Space I (2023)</h3>
+                            <p>
+                                An art installation, Latent Space 1, used an AI simulating Alan Watts to understand
+                                visitors' dreams and aspirations. This data was then transformed into a personalized
+                                virtual reality experience with dream-like visuals, poetic narration, and unique music.
+                                (w/ Mainen Lab and Mots)
+                            </p>
+                            <a href="https://youtu.be/Fa3UvuxguCY" target="_blank" rel="noopener noreferrer"
+                                >View Example Video▸</a
+                            >
+                        </div>
+                    </article>
+
+                    <div class="projects-container">
+                        <h3 class="project-category-title">Academic</h3>
+
+                        <article class="project-item">
+                            <div class="project-image">
+                                <img src="img/cmi/traj_latent_space.png" alt="Palimpsest" />
+                            </div>
+                            <div class="project-details">
+                                <h3>Cognitive Mechanistic Interpretability (ongoing)</h3>
+                                <p>
+                                    Using mechanistic interpretability techniques, we explore how distinct cognitive
+                                    behavior are identifiable and separable within the models' internals. This suggests
+                                    that LLMs can be used as scientific models to better understand human cognition and,
+                                    excitingly, opens the door to novel "cognitive alignment," where models could be
+                                    intentionally steered to either "think" more like humans for better collaboration or
+                                    be productively disaligned to foster novel creativity.
+                                </p>
+                                <a href="" target="_blank" rel="noopener noreferrer"
+                                    >Lacosse, et al., Emerging Human-like Strategies for Semantic Memory Foraging in
+                                    Large Language Models, (forthcoming) NeurIPS 2025 workshop for Mechanistic
+                                    Interpretability.
+                                </a>
                             </div>
                         </article>
 
                         <article class="project-item">
                             <div class="project-image">
-                                <img src="img/ls1/1.jpg" alt="Latent Space I" />
+                                <img src="img/cogsyn/figure1.png" alt="Cognitive Synergies" />
                             </div>
                             <div class="project-details">
-                                <h3>Latent Space I</h3>
+                                <h3>Cognitive Synergies (ongoing)</h3>
                                 <p>
-                                    An art installation, Latent Space 1, used an AI simulating Alan Watts to understand
-                                    visitors' dreams and aspirations. This data was then transformed into a personalized
-                                    virtual reality experience with dream-like visuals, poetic narration, and unique
-                                    music.
+                                    AI should be engineered not to replace core human cognitive functions, but to
+                                    enhance them by serving as cognitively-aware "thought partners" that can align with
+                                    human mental processes, amplifying their abilities for creative exploration. Here,
+                                    we explore how AI during a collaborative active memory search task can track and
+                                    enhance human performance. (w/ Mariana Duarte, Peter Todd, and Daniel McNamee).
                                 </p>
-                                <a href="https://youtu.be/Fa3UvuxguCY" target="_blank" rel="noopener noreferrer"
-                                    >View Example Video▸</a
-                                >
+                                <a href="" target="_blank" rel="noopener noreferrer"></a>
                             </div>
                         </article>
                     </div>
