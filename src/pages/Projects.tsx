@@ -51,6 +51,14 @@ export default function Projects() {
               representation engineering to shape and interpret AI behaviors, aligning neural activations with human
               thought processes to bridge human cognition and machine intelligence.
             </p>
+            <a
+              href="https://bialign-workshop.github.io/2026chi-pdfs/21.pdf"
+              className="text-[#a0a0a0] underline decoration-[#555] hover:text-white hover:decoration-white transition-all"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Lacosse, et al., Multi-System Cognitive Steering for Generative Communication.
+            </a>
           </div>
         </article>
 
@@ -166,13 +174,13 @@ export default function Projects() {
               productively disaligned to foster novel creativity.
             </p>
             <a
-              href="#"
+              href="https://arxiv.org/pdf/2603.01822"
               className="text-[#a0a0a0] underline decoration-[#555] hover:text-white hover:decoration-white transition-all"
               target="_blank"
               rel="noopener noreferrer"
             >
               Lacosse, et al., Emerging Human-like Strategies for Semantic Memory Foraging in Large Language Models,
-              (forthcoming) NeurIPS 2025 workshop for Mechanistic Interpretability.
+              NeurIPS 2025 workshop for Mechanistic Interpretability.
             </a>
           </div>
         </article>
