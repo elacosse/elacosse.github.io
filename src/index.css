@@ -4,26 +4,34 @@
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Surfaces */
+  --color-canvas: #0a0a0a;
+  --color-surface: #282828;
+
+  /* Text, brightest to faintest */
+  --color-ink: #e0e0e0;
+  --color-silver: #c0c0c0;
+  --color-muted: #b0b0b0;
+  --color-dim: #a0a0a0;
+  --color-faint: #888888;
+
+  /* Rules and dividers */
+  --color-rule: #282828;
+  --color-rule-strong: #333333;
+  --color-rule-subtle: #555555;
+
+  /* Type scale */
+  --text-body: 15px;
+  --text-meta: 16px;
+  --text-label: 18px;
+  --text-title: 20px;
+  --text-lead: 24px;
+  --text-display: 48px;
 }
 
 @layer base {
   body {
-    @apply bg-[#0a0a0a] text-[#e0e0e0] font-sans antialiased;
+    @apply bg-canvas text-ink font-sans antialiased;
   }
-}
-
-.markdown-body p {
-  @apply mb-4 leading-relaxed text-[#b0b0b0] text-[15px];
-}
-
-.markdown-body ul {
-  @apply list-none p-0 m-0;
-}
-
-.markdown-body li {
-  @apply relative pl-[25px] mb-[15px] text-[#b0b0b0] text-[15px];
-}
-
-.markdown-body li::before {
-  @apply content-['•'] absolute left-0 top-[3px] text-[#e0e0e0] text-[12px];
 }
